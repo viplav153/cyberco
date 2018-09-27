@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CYBERCON2K18</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <! Favicon >
+    <link rel="icon" href="img/bvplogo.png">
+    <!favicon end>
+    
+    <style>
+        .navbar {
+          margin-bottom: 0;
+          border-radius: 0;
+          background-color: rgb(14,180,147);
+          color: #FFF;
+          padding: .50% 0;
+          font-size: 1.2em;
+          border: 0;
+      }
+      .navbar-brand { 
+          float: left;
+          min-height: 55px;
+          padding: 0 15px 5px;
+           }
+      .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus,  .navbar-inverse .navbar-nav .active a:hover{
+          color=#FFF;
+          background-color: rgb(14,180,147);
+      }
+      .navbar-inverse .navbar-nav li a{
+          
+          color:D5D5D5;
+          
+          
+      }
+      .carousel-caption{
+          top:50%;
+          transform:translateY(-50%);
+          text-transform: uppercase; }
+      .btn {
+          font-size:18px;
+color:#FFF;
+      padding:12px 22px;
+      background:rgb(14,180,147);
+      border:2px solid:#FFF;
+      }
+      .container{
+          margin: 3% auto;
+      }
+      #icon {
+          max-width: 200px;
+          margin:1% auto;
+      }
+      footer{
+          width:100%;
+          background-color: rgb(14,180,147);
+          padding: 3%;
+          color:#FFF;
+      }
+      .fa{
+          padding:15px;
+          font-size: 30px;
+          color:#FFF;
+      }
+      .fa:hover{
+          color:#D5D5D5;
+          text-decoration:none;
+      } @media (max-width: 900px){
+          
+          .fa{font-size:20px;
+              padding:10px:
+          }
+      }
+      @media (max-width: 600px){
+          .carousel-caption{
+          display:none;
+      }
+          #icon{
+              max-width:150px;
+               }
+          h2{
+              fontsize: 1.9em;
+          }
+          
+      }
+          
+          
+          
+      
+  </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+
+                </button>
+                <a class="navbar-brand" href="#"><img src="img\logo.png"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li class="active"><a href="#">About</a></li>
+                    <li class="active"><a href="#">Events</a></li>
+                    <li class="active"><a href="#">Our team</a></li>
+                    <li class="active"><a href="#">Contact us</a></li>
+
+
+
+
+
+
+
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+
+                <img src="img/mountains.png">
+                <div class="carousel-caption">
+                    <h1>CYBERCON 2k18</h1>
+                    <br>
+                    <button type="button" class="btn btn-default">Get Started</button>
+                </div>
+            </div>
+            <!--- End Active-->
+            <div class="item">
+                <img src="img/snow.png">
+
+
+            </div>
+            <div class="item">
+                <img src="img/red.png">
+
+
+            </div>
+            <div class="item">
+                <img src="img/snow.png">
+
+
+            </div>
+        </div>
+        <!---Start Slider Controls-->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+
+    </div>
+    <!---End Slider-->
+    <div class="container text-center">
+        <h2>OUR EVENTS</h2>
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="img/mock.jpg" id="icon">
+                <p>  <font face="Gabriola" size="22" >Mock Placments</font></p>
+            </div>
+            <div class="col-sm-4">
+                <img src="img/blind.png" id="icon">
+                <p>  <font face="Gabriola" size="22" >Blind Coding</font></p>
+            </div>
+            <div class="col-sm-4">
+                <img src="img/jam.png" id="icon">
+                <p>  <font face="Gabriola" size="22" >Jamswitch</font></p>
+
+            </div>
+            <div class="col-sm-6">
+                <img src="img/tech.png" id="icon">
+                <p>  <font face="Gabriola" size="22" >TechTalks</font></p>
+
+            </div>
+            <div class="col-sm-6">
+                <img src="img/rapid.png" id="icon">
+                <p>  <font face="Gabriola" size="22" >Impulse</font></p>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <p style ="text-align:center;">  <font face="Gabriola" size="26" color="rgb(14,180,147)"  >Mock Placements</font></p>
+                <a href="img/m.png" ><img src="img/m.png" class="img-responsive"></a>
+            
+            </div>
+            
+                
+             <div class="col-md-6">
+                 <p style ="text-align:center;">  <font face="Gabriola" size="26" color="rgb(14,180,147)"  >Blind Coding</font></p>
+                <a href="img/b.png" ><img src="img/b.png" class="img-responsive"></a>
+            
+            </div>
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                 <p style ="text-align:center;">  <font face="Gabriola" size="26" color="rgb(14,180,147)"  >Tech Talk</font></p>
+                <a href="img/t.png" ><img src="img/t.png" class="img-responsive"></a>
+            
+            
+            
+
+            </div>
+            
+            <div class="col-md-4">
+                 <p style ="text-align:center;">  <font face="Gabriola" size="26" color="rgb(14,180,147)"  >JamSwitch</font></p>
+                <a href="img/j.png" ><img src="img/j.png" class="img-responsive"></a>
+            
+            
+            
+
+            </div>
+             <div class="col-md-4">
+                 <p style ="text-align:center;">  <font face="Gabriola" size="26" color="rgb(14,180,147)"  >impulse</font></p>
+                 <a href="img/i.png" ><img src="img/i.png" class="img-responsive"></a>
+            
+            
+
+            </div>
+            
+               
+            
+
+
+
+
+        </div>
+
+    </div>
+
+    
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+
+            <img src="img/12.png">
+            <div class="carousel-caption">
+                <h1>CYBERCON 2k18</h1>
+                <br>
+                <a href="https://goo.gl/forms/xxj7cg2KnisaBapv1" target="_blank"><button type="button" class="btn btn-default">Register Here</button></a>
+            </div>
+        </div>
+        
+        
+         <!-- Google map -->
+        <p> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.54683129601!2d73.85342211489184!3d18.45887368744493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2eac7353cf903%3A0x98f9e9ff19dc42bb!2sBharati+Vidyapeeth+Deemed+University!5e0!3m2!1sen!2sin!4v1535658304956" width="600" height="450" frameborder="0" style="border:0; width: 100%; " allowfullscreen></iframe>></p>
+        <!-- End Google map -->
+
+
+        <! Contact Us --!>
+
+
+        <footer class="container-fluid text center">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3>Contact us</h3>
+                    <p>Raghav Pare :- 9424685798<br> Harsh Singh :- 9130474358</p>
+                    <br>
+                    <h4> Our address and contact info here</h4>
+                    <p>Bharati Vidyapeeth, Bharati Vidyapeeth Campus, Dhankawadi, Pune, Maharashtra 411046</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3> Connect</h3>
+                    <a href="https://www.facebook.com/bvpnsg/" class="fa fa-facebook"></a>
+                    <a href="https://twitter.com/bvucoensg?lang=en" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                    <a href="https://www.instagram.com/nsgbvucoe/" class="fa fa-instagram"></a>
+                </div>
+
+                <div class="col-sm-4">
+                    <img src="img/bvp.png" class="icon">
+                </div>
+
+
+            </div>
+
+
+        </footer>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

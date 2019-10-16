@@ -7,3 +7,4 @@ Your personal website is waiting to be personalized, though. It includes space t
 software development, like languages or industries. And it's standing by to publish your next great blog post.
 It's all possible using the combination of Jekyll (for building your website), GitHub Pages (for hosting your website), and 
 GitHub's API (for automatically populating your website with content).
+The changes have been made.
